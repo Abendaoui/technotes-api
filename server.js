@@ -39,7 +39,7 @@ app.all('*', (req, res) => {
 
 app.use(errorHandler)
 
-const PORT = process.env.PORT || 5000
+const PORT =  5000
 connectDb()
 
 mongoose.connection.once('open', () => {
